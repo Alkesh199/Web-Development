@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>image slider</title>
+        <meta name="description" content="Image Slider">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Practice, Image slider">
+        <meta name="author" content="Alkesh">
+        <link rel="stylesheet" href = "style.css">
+        <script src="action.js"></script>
+    </head>
+    <body>
+
+        <main class ="main-container">
+            <div class ="heading-div">
+               <p class ="heading-text">Slider Functionality</p>
+            </div>
+            <div class="slide-container">
+
+                <div class="slideItem">
+                    <img src="https://picsum.photos/id/202/800/300" class="slider-image">
+                    <p class="item-text">Slide Image 1</p>
+                </div>
+
+                <div class="slideItem">
+                    <img src="https://picsum.photos/id/208/800/300" class="slider-image">
+                    <p class="item-text">Slide Image 2</p>
+                </div>
+
+                <div class="slideItem">
+                    <img src="https://picsum.photos/id/230/800/300" class="slider-image">
+                    <p class="item-text">Slide Image 3</p>
+                </div>
+
+                <div class="slideItem">
+                    <img src="https://picsum.photos/id/210/800/300" class="slider-image">
+                    <p class="item-text">Slide Image 4</p>
+                </div>
+
+            </div>
+
+            <div id="buttons-section">
+               <button id="prev-btn" onClick=slideController(-1)>previous</button>
+               <button id="next-btn" onClick=slideController(1)>next</button>
+            </div>
+        </main>
+        
+    </body>
+</html>
+
